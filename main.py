@@ -18,7 +18,10 @@ def add_user(surname, name, age, position, speciality, address, email):
 
 
 def fill_base():
-    temp_users = [("Scott", "Ridley", "21", "captain", "research engineer", "module_1", "scott_chief@mars.org")]
+    temp_users = [("Scott", "Ridley", "21", "captain", "research engineer", "module_1", "scott_chief@mars.org"),
+                  ("Anna", "Luke", "25", "no_capitan", "research engineer", "module_2", "anna_chief@mars.org"),
+                  ("Andrey", "Dog", "19", "no_capitan", "engineer", "module_1", "andrey_chief@mars.org"),
+                  ("Mike", "Ivanov", "39", "no_capitan", "engineer", "module_1", "mike_chief@mars.org")]
     for user in temp_users:
         add_user(*user)
 
